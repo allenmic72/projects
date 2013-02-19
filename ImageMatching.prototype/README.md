@@ -3,6 +3,10 @@ ImageSearch (Working Title)
 
 Semester Project
 
+Curently a prototype. Can take two images as input, attempts to match the first (the pattern) against the second
+Handles a cropped pattern image and the following formats: PNG, JPEG, GIF
+Final version will take any number of patterns and other images for matching, and will handle scaled images
+
 Authors:
 -------------
 Jonathan Lane<br />
