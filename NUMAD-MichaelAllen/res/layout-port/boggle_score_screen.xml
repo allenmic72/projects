@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="45dip"
+    android:background="@drawable/score_scrn_gradient">
+    
+    <TextView
+        android:id="@+id/boggle_score_textview"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content" 
+    	android:text=""
+    	android:textSize="24sp" >
+    </TextView>
+    
+    <TextView
+        android:id="@+id/boggle_score_screen_words"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content" 
+    	android:text=""
+    	android:textSize="24sp" >
+    </TextView>
+    
+    <Button
+        android:id="@+id/boggle_main_screen_button"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content" 
+    	android:text="@string/boggle_main_screen_text"
+    	android:textSize="24sp">
+    </Button>
+
+</LinearLayout>

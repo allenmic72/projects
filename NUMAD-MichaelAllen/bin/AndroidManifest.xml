@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.neu.madcourse.michaelallen"
+    android:versionCode="3"
+    android:versionName="1.11" >
+    
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.READ_PHONE_DATA" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="7" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="edu.neu.madcourse.michaelallen.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.michaelallen.Team"
+            android:label="@string/title_activity_team">
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.michaelallen.boggle.BoggleMain"
+            android:label="@string/boggle_main_title"
+            android:configChanges="orientation"
+    		android:screenOrientation="portrait"> 
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.michaelallen.boggle.BoggleGame"
+            android:label="@string/boggle_game_title"
+            android:configChanges="orientation"
+   			android:screenOrientation="portrait">
+        </activity>
+        <activity 
+            android:name="edu.neu.madcourse.michaelallen.boggle.BoggleScoreScreen"
+            android:label="@string/boggle_score_screen_title"
+            android:configChanges="orientation"
+    		android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.michaelallen.boggle.BoggleRules"
+            android:label="@string/boggle_rules_label">
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.michaelallen.boggle.BoggleAcknowledgements"
+            android:label="@string/boggle_acknowledgements_title">
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.michaelallen.boggle.BoggleHS"
+            android:label="@string/boggle_high_scores_label">
+        </activity>
+        <activity android:name="edu.neu.madcourse.michaelallen.sudoku.Sudoku"
+              android:label="@string/sudoku_title">
+        </activity>
+        <activity android:name="edu.neu.madcourse.michaelallen.sudoku.About"
+              android:label="@string/about_title"
+              android:theme="@android:style/Theme.Dialog">
+        </activity>
+        <activity android:name="edu.neu.madcourse.michaelallen.sudoku.Prefs"
+              android:label="@string/settings_title">
+        </activity>
+        <activity android:name="edu.neu.madcourse.michaelallen.sudoku.Game"
+              android:label="@string/game_title"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,15 @@
+n
+ns
+nt
+reg
+regs
+rn
+rt
+rts
+tara
+taras
+tera
+teras
+th
+ths
+

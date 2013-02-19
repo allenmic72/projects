@@ -1,0 +1,7 @@
+dt
+g
+l
+ls
+pa
+r
+c

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp" 
+    android:background="@drawable/backgroundgradient">
+    
+    <TextView 
+        android:id="@+id/boggle_game_timer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:gravity="center"
+        />
+    
+    <TextView
+        android:id="@+id/boggle_game_selected"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_below="@id/boggle_game_timer"
+        />
+    
+    <edu.neu.madcourse.michaelallen.boggle.BoggleGameView
+        android:id="@+id/boggle_game_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/boggle_game_selected" />
+    
+    <Button 
+        android:id="@+id/boggle_game_quit"
+        android:text="@string/boggle_game_quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="12sp"
+         />
+    
+     <Button
+        android:id="@+id/boggle_game_pause"
+        android:text="@string/boggle_pause_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/boggle_game_quit"
+        android:layout_alignParentBottom="true"
+        android:textSize="11sp"
+        />
+     
+    <TextView
+        android:id="@+id/boggle_game_currentscore"
+        android:text="Score: 0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="24sp"
+        />
+    
+   
+    
+
+    
+
+</RelativeLayout>

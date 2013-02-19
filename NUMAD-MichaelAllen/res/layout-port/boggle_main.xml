@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/brown_gradient"
+    android:gravity="center"
+    android:padding="45dip"> 
+    
+    <TextView
+        android:text="@string/boggle_main_title"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:textSize="28sp"
+        />
+    <Button
+        android:id="@+id/boggle_continue_button"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/boggle_continue_button_label"
+	    android:visibility="invisible"
+        />
+    <Button
+        android:id="@+id/boggle_new_game_button"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/boggle_new_game_label"
+	    />
+    <Button 
+        android:id="@+id/boggle_rules_button"
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/boggle_rules_label"
+	    />
+    
+    <Button
+        android:id="@+id/boggle_acknowledgements_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boggle_acknowledgements_label"
+        />
+    <Button
+        android:id="@+id/boggle_high_scores"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boggle_high_scores_label"
+        />
+    <Button
+        android:id="@+id/boggle_exit_button"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/exit_label"
+	    />
+    
+
+</LinearLayout>

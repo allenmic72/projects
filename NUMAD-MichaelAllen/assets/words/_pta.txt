@@ -1,0 +1,6 @@
+rmic
+rmical
+rmics
+rmigan
+rmigans
+h
